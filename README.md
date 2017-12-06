@@ -1,36 +1,29 @@
 # paint-term
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
 ## Usage
 
-FIXME: explanation
+Run the program with the following command:
 
-    $ java -jar paint-term-0.1.0-standalone.jar [args]
+    $ ./bin/run.sh
 
-## Options
+Or with leiningen:
 
-FIXME: listing of options this app accepts.
+    $ lein run
 
-## Examples
+## Running the tests
 
-...
+Run both integration and unit tests with leiningen:
 
-### Bugs
+    $ lein test
 
-...
+## Things to improve:
 
-### Any Other Sections
-### That You Think
-### Might be Useful
+- Using spec to provide better error messages to the user
+  when the input is not valid.
+
+- Validation to check if the coordinates given by the user
+  are defined within the canvas.
 
 ## License
 
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright © 2017 Oliver Martell Nunez
