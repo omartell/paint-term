@@ -6,5 +6,5 @@
   :dependencies [[org.clojure/clojure "1.9.0-RC2"]]
   :main paint-term.main
   :target-path "target/%s"
-  :uberjar-name "paint-term.jar"
+  :uberjar-name "paint-term"
   :profiles {:uberjar {:aot :all}})

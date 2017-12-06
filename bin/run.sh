@@ -2,4 +2,4 @@
 
 set -eo pipefail
 
-java -jar ./target/uberjar/paint-term.jar
+java -jar ./target/uberjar/paint-term

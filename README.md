@@ -10,6 +10,10 @@ Or with leiningen:
 
     $ lein run
 
+Or run the included jar directly:
+
+    $ java -jar target/uberjar/paint-term
+
 ## Running the tests
 
 Run both integration and unit tests with leiningen:
